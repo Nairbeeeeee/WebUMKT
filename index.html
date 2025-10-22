@@ -54,7 +54,7 @@
         </script>
 
         <!-- style card -->
-        <style> 
+         <style> 
             /* Default (Desktop) */
             .card {
                 transition: transform 0.2s ease-in-out;
@@ -138,9 +138,16 @@
                 font-size: 14px; /* Font size */
             }
 
-            
+            .video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
 
-            
+            }
 
             .hero {
             position: relative;
@@ -201,7 +208,9 @@
                     font-size: 1rem;
                 }
 
-                
+                .video-bg {
+                    display: none;
+                }
 
                 @media (max-width: 576px) {
                     .hero-title {
@@ -267,7 +276,7 @@
     </head>
     <body>
         <div id="google_translate_element" hidden></div>
-        <div class="top-navbar navbar navbar-expand-lg navbar-dark py-1">
+        <div class="top-navbar navbar navbar-expand-lg navbar-dark py-1"> 
             <div class="container">
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -308,8 +317,7 @@
                             <button class="nav-link btn btn-sm px-0" onclick="gTranslate()"><img src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/eng-flag.webp" height="20px" alt="EN"></button>
                         </li>
   </div>
-  
-</div>
+        </div>
         <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="/"><img id="logo" src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/logo-umkt-biru.webp" alt="logo umkt" width="120px"></a>
@@ -453,7 +461,7 @@
             AOS.init();
         </script>
         <!-- Main Content -->
-        <div class="hero container-fluid">
+          <div class="hero container-fluid">
             <div class="hero-container container p-2">
                 <div class="container text-left text-white">
                     <p data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Berkarakter | Berwawasan | Berkemajuan</p>
@@ -465,7 +473,9 @@
                         </q>
                     </h2>
             </div>
-            
+            <video autoplay muted loop plays-inline class="video-bg" >
+                <source src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/umkt-min.mp4" type="video/mp4">
+            </video>
         </div>
         
         <!-- Floating Section -->
@@ -474,7 +484,7 @@
                 <div class="row gap-2 py-2">
                     <div class="col-lg-5 text-white">
                         <div class="col border border-warning" style="width: 50px;"></div>
-                        
+                       
                     </div>
                     <div class="col-lg-3 shadow rounded bg-white p-3">
                         <div class="row row-cols-1 row-cols-md-1 g-4">
@@ -753,7 +763,6 @@
         
                             </div>
                             <div class="text-center my-4"><a href="semua-event.html" style="text-decoration: none;" class="btn btn-warning rounded-5">Event lainnya &rarr;</a></div>
-                           
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
@@ -1730,7 +1739,7 @@
 
                         
                         <div class="my-3">
-                            <a href="https://www.tiktok.com/@umkt_cmiiw" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-tiktok me-3"></i>TikTok</a>
+                            <a href="https://www.tiktok.com/@umkt_cmiiw" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-tiktok me-3"></i>TikTOk</a>
                         </div>
                         
 
@@ -1760,4 +1769,4 @@
 
 </footer>
 <!-- Footer -->
-</html> 
+</html>
