@@ -1,0 +1,1763 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="content-language" content="In-Id">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="googlebot-news" content="index,follow">
+        <meta name="googlebot" content="index,follow">
+        <meta name="language" content="id">
+        <meta name="geo.country" content="id">
+        <meta name="geo.placename" content="Indonesia">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Universitas Muhammadiyah Kalimantan Timur">
+        <meta property="og:site_name" content="Universitas Muhammadiyah Kalimantan Timur">
+        <meta property="og:title" content="Universitas Muhammadiyah Kalimantan Timur">
+        <meta property="og:description" content="Universitas Muhammadiyah Kalimantan Timur merupakan Universitas Swasta Peringkat Nomor 1 yang ada di Kalimantan Timur">
+        <meta property="og:image" content="https://minio.umkt.ac.id/dev-umkt-media/logo/logo-umkt-secondary.webp">
+        <meta property="og:url" content="https://umkt.ac.id">
+
+        <link rel="icon" type="image/x-icon" href="https://minio.umkt.ac.id/dev-umkt-static/images/favicon.ico">
+        <!-- Bootstrap 5.3 -->
+        <link rel="stylesheet" href="https://minio.umkt.ac.id/dev-umkt-static/plugins/css/bootstrap.min.css">
+        <!-- Bootstrap Icons CSS -->
+        <link rel="stylesheet" href="https://minio.umkt.ac.id/dev-umkt-static/plugins/css/bootstrap-icons.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="https://minio.umkt.ac.id/dev-umkt-static/plugins/css/style.css">
+        <!-- Data AOS -->
+        <link rel="stylesheet" href="https://minio.umkt.ac.id/dev-umkt-static/plugins/css/aos.css">
+
+        <!-- GTranslate -->
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages: 'en', autoDisplay: false}, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <!-- Title -->
+        <title>Home | Universitas Muhammadiyah Kalimantan Timur</title>
+    
+        <!-- Tag Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-22RVY7TYPV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-22RVY7TYPV');
+        </script>
+
+        <!-- style card -->
+        <style> 
+            /* Default (Desktop) */
+            .card {
+                transition: transform 0.2s ease-in-out;
+                height: 100%;
+            }
+            
+            .card:hover {
+                transform: scale(1.02);
+            }
+            
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .card-arrow {
+                display: none;
+            }
+            
+            /* Mobile (max-width: 768px) */
+            @media (max-width: 768px) {
+                .card {
+                display: flex;
+                flex-direction: row;
+                height: auto; /* Allow for flexible height on mobile */
+                }
+            
+                .card-img-top {
+                width: 35%;
+                height: auto;
+                object-fit: cover;
+                }
+            
+                .card-body {
+                width: 65%;
+                }
+            
+                .card-arrow {
+                display: block;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                width: 20px;
+                height: 20px;
+                background-image: url('arrow-icon.svg'); /* Change to your arrow icon */
+                background-size: cover;
+                }
+            
+                .card:hover {
+                transform: scale(1.02);
+                }
+            }   
+            .icon-box {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-color: #ffc107;
+                padding: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+            }
+            .small-image {
+                width: 100px;
+                height: auto;
+                transition: transform 0.3s ease-in-out;
+                margin-right: 10px;
+            }
+            .small-image:hover {
+                transform: scale(1.1);
+                box-shadow: dimgray;
+            }
+            .sdgs-box {
+                background-color: #007bff; /* Change to your desired color */
+                color: white; /* Text color */
+                padding: 5px 10px; /* Padding for the box */
+                
+                font-size: 14px; /* Font size */
+            }
+
+            
+
+            
+
+            .hero {
+            position: relative;
+            background: linear-gradient(135deg, #3c0778 0%, #152a6a 50%, #0d7b94 90%);
+            color: white;
+            overflow: hidden;
+            padding: 90px 0;
+            min-height: 100vh;
+            }
+
+            .hero::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(135deg, #3c0778 0%, #152a6a 50%, #0d7b94 90%);
+                z-index: -1;
+                animation: gradientShift 15s ease infinite;
+            }
+
+            .hero-container {
+            background-color: rgba(255, 255, 255, 0.05); /* transparan ringan */
+            border-radius: 12px;
+            padding: 30px;
+                }
+
+                .hero-title {
+                    font-size: 2.8rem;
+                    font-weight: 700;
+                    color: #f2f2f2; /* kuning branding */
+                    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+                }
+
+            .hero p {
+                    font-size: 1.3rem;
+                    color: #ffffff;
+                    margin-bottom: 15px;
+                    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+                }
+
+            /* Mobile Optimizations */
+            @media (max-width: 768px) {
+                .hero {
+                    padding: 60px 0;
+                }
+
+                .hero-container {
+                    padding: 20px;
+                }
+
+                .hero-title {
+                    font-size: 2rem;
+                }
+
+                .hero p {
+                    font-size: 1rem;
+                }
+
+                
+
+                @media (max-width: 576px) {
+                    .hero-title {
+                        font-size: 1.8rem;
+                    }
+
+                    .hero p {
+                        font-size: 0.9rem;
+                    }
+
+                    .hero-container {
+                        padding: 15px;
+                    }
+                }
+            }
+
+            /* Navbar Hover Effects */
+            #navbar_top .navbar-nav .nav-link {
+                transition: all 0.3s ease-in-out;
+                border-radius: 5px;
+                padding: 8px 12px;
+            }
+
+            #navbar_top .navbar-nav .nav-link:hover {
+                background-color: rgba(255, 193, 7, 0.2); /* Semi-transparent yellow background */
+                color: #ffc107; /* Yellow text color */
+                transform: translateY(-2px); /* Slight lift effect */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            }
+
+            #navbar_top .dropdown-menu .dropdown-item:hover {
+                background-color: #ffc107; /* Yellow background on dropdown items */
+                color: #000; /* Black text for contrast */
+                transition: background-color 0.3s ease;
+            }
+
+            /* Top Navbar Hover Effects */
+            .top-navbar .navbar-nav .nav-link:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+                color: #fff;
+                transition: all 0.3s ease;
+                border-radius: 5px;
+            }
+
+            /* Floating Section Mobile Responsiveness */
+            @media (max-width: 768px) {
+                .floating-section h2 {
+                    font-size: 1.2rem !important;
+                    line-height: 1.4;
+                    word-wrap: break-word;
+                    overflow-wrap: break-word;
+                    hyphens: auto;
+                }
+
+                .floating-section .col-lg-5 {
+                    padding: 10px;
+                }
+            }
+
+                
+            
+        </style>
+    </head>
+    <body>
+        <div id="google_translate_element" hidden></div>
+        <div class="top-navbar navbar navbar-expand-lg navbar-dark py-1">
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navTop" aria-controls="navTop" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               <div class="collapse navbar-collapse justify-content-start" id="navTop">
+      <ul class="navbar-nav fw-semibold">
+        <li class="nav-item">
+          <a class="nav-link px-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer" href="https://sikad.umkt.ac.id/">
+            <i class="bi bi-laptop me-1"></i> SIKAD
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer" href="https://pddikti.kemdiktisaintek.go.id/">
+            <i class="bi bi-database me-1"></i> PDDIKTI
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer" href="https://lib.umkt.ac.id/">
+            <i class="bi bi-book me-1"></i> Perpus
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer" href="https://www.umkt.ac.id/kemahasiswaan/">
+            <i class="bi bi-people me-1"></i> Tracer Study
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer" href="https://www.umkt.ac.id/pmb/">
+            <i class="bi bi-file-earmark-text me-1"></i> E-Brosur
+          </a>
+        </li>
+        <li class="nav-item d-lg-none">
+          <button class="nav-link btn btn-sm px-3" onclick="gTranslate()"><img src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/eng-flag.webp" height="20px" alt="EN"> Translate</button>
+        </li>
+      </ul>
+    </div>
+      <li class="nav-item d-none d-lg-block">
+                            <button class="nav-link btn btn-sm px-0" onclick="gTranslate()"><img src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/eng-flag.webp" height="20px" alt="EN"></button>
+                        </li>
+  </div>
+  
+</div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="/"><img id="logo" src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/logo-umkt-biru.webp" alt="logo umkt" width="120px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        
+        <li class="nav-item dropdown">
+            
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kampus UMKT</a>
+            <ul class="dropdown-menu shadow dropdown-menu-start" aria-labelledby="navbarDropdown">
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/sambutan-rektor.html" >Sambutan Rektor</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/visi-dan-misi.html" >Visi dan Misi</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/master-plan.html" >Master Plan</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/profil.html" >Profil</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/pemilihan-rektor.html" >Pemilihan Rektor</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/diktisaintek-berdampak.html" >Diktisaintek Berdampak</a></li>
+                    
+                
+            </ul>
+             
+           
+        </li>
+        
+        <li class="nav-item dropdown">
+            
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Akademik</a>
+            <ul class="dropdown-menu shadow dropdown-menu-start" aria-labelledby="navbarDropdown">
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://lib.umkt.ac.id/" >Perpustakaan</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://opl.umkt.ac.id" >OpenLearning</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/dosen-pengajar.html" >Dosen Pengajar</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="fakultas.html" >Fakultas</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="program-studi.html" >Program Studi</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/unit-bagian-biro-dan-lembaga.html" >Unit, Bagian, Biro, dan Lembaga</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://minio.umkt.ac.id/dev-umkt-media/dokumen/akreditasi-umkt-2024.pdf" >Akreditasi Universitas</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://minio.umkt.ac.id/dev-umkt-media/dokumen/Kalender_Akademik_2024.pdf" >Kalender Akademik</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/keberlanjutan.html" >Keberlanjutan</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://www.umkt.ac.id/sdgs-center/about-sdgs.html" >SDGs di UMKT</a></li>
+                    
+                
+                    
+                    <li><a style="inline-size: 230px; text-wrap: wrap;" class="dropdown-item" href="https://umkt.ac.id/akreditasi-umkt.html" >Akreditasi UMKT</a></li>
+                    
+                
+            </ul>
+             
+           
+        </li>
+        
+        <li class="nav-item dropdown">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="https://umkt.ac.id/umktalks-academy.html" >UMKTalks Academy</a>
+            </li>
+             
+           
+        </li>
+        
+        <li class="nav-item dropdown">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="events.html" >Events</a>
+            </li>
+             
+           
+        </li>
+        
+        <li class="nav-item dropdown">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="https://umkt.ac.id/why-umkt.html" >Why UMKT?</a>
+            </li>
+             
+           
+        </li>
+        
+        <li class="nav-item dropdown">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="https://umkt.ac.id/kontak.html" >Kontak</a>
+            </li>
+             
+           
+        </li>
+        
+    </ul>
+</div>
+            </div>
+        </nav>
+        
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://minio.umkt.ac.id/dev-umkt-static/plugins/js/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!-- Main Content -->
+        <div class="hero container-fluid">
+            <div class="hero-container container p-2">
+                <div class="container text-left text-white">
+                    <p data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Berkarakter | Berwawasan | Berkemajuan</p>
+                    <h1 class="hero-title" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">Universitas Muhammadiyah Kalimantan Timur</h1>
+                </div>
+                <h2 class="fs-4 fw-normal pt-4">
+                        <q style="font-style: italic; color: #ffffff;">
+                            Universitas Muhammadiyah Kalimantan Timur merupakan Universitas Swasta Peringkat Nomor 1 yang ada di Kalimantan Timur.
+                        </q>
+                    </h2>
+            </div>
+            
+        </div>
+        
+        <!-- Floating Section -->
+        <div id="section" class="floating-section container-fluid">
+            <div class="floating-section container p-2">
+                <div class="row gap-2 py-2">
+                    <div class="col-lg-5 text-white">
+                        <div class="col border border-warning" style="width: 50px;"></div>
+                        
+                    </div>
+                    <div class="col-lg-3 shadow rounded bg-white p-3">
+                        <div class="row row-cols-1 row-cols-md-1 g-4">
+                            <!-- Content -->
+                            <h5 class="fw-bold text-center">YouTube UMKT</h5>
+                            <div class="col-sm border border-warning " style="width: 40px; position: center; margin: 0 auto;"></div>
+                            <div class="col p-2">
+                                <div class="rounded" style="position: relative; padding-bottom: 56.25%; height: 300;">
+                                    <iframe style="position: absolute; top: 0; left:0; width:100%; height:100%; border-radius: 10px;" src="https://www.youtube.com/embed?listType=playlist&list=UU9VOR5Ry-JjlpcRNiu2tMMQ">
+                                    </iframe>
+                                </div>
+                                <div class="pt-3 text-center">
+                                    <a class="btn btn-md text-light" style="background-color: #ff0000;" href="https://www.youtube.com/@universitasmuhammadiyahkal3638" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube"></i> View on YouTube</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 shadow rounded bg-white p-2 text-center">
+                        <iframe src="https://www.instagram.com/p/C6-u3qvv0P0/embed" frameborder="0" scrolling="no" width="250" height="350" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg shadow rounded-4 bg-danger border text-white text-center" style="padding: 90px 50px;">
+                        <div>
+                            <i class="bi bi-megaphone-fill text-white" style="font-size: 60pt;"></i>
+                            <p style="font-size: 14pt;">
+                                Informasi Pendaftaran <br><b style="font-size: 30pt;">Mahasiswa Baru</b><br><small>Universitas Muhammadiyah Kalimantan Timur</small>
+                            </p>
+                            <a href="https://umkt.ac.id/pmb/" class="flex-grow-0 btn btn-warning rounded-pill px-5">Cek disini</a>
+                        </div>
+                        
+                    </div>
+                    <div id="api-berita-main" class="col-lg pt-3 gap-1">
+                            
+                    </div>
+                    <div id="api-pengumuman-main" class="col-lg pt-3 gap-1">
+
+                            
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: white;">
+            <div class="container p-2">
+                <div class="row d-flex gap-1 align-items-start">
+                    <div class="col-lg text-center py-3" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                    
+                        
+                            
+                            
+                        
+                    
+                    </div>
+                    <div class="col-lg py-3" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true" style="text-align: justify;">
+                        <h5 id="title">Universitas Muhammadiyah Kalimantan Timur</h5>
+                        <span>Universitas Muhammadiyah Kalimantan Timur (UMKT) merupakan Universitas Swasta nomor satu dari 172 kampus Perguruan Tinggi yang dimiliki oleh Persyarikatan Muhammadiyah. Kampus ini terletak di Samarinda, ibu kota provinsi Kalimantan Timur</span>
+                    </div>
+                    
+                </div>
+                <div class="row d-flex align-content-start py-5" style="text-align: justify;">
+                    <div data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                        <h5 id="title">Kerjasama Dalam dan Luar Negeri</h5>
+                    </div>
+                    <div class="col-lg" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                        <span>
+                            <ul>
+                                <li>Hanbat National University (HBNU), Korea Selatan</li>
+                                <li>Asia University, Taiwan</li>
+                                <li>Universiti Tun Hussein Onn Malaysia</li>
+                                <li>Universiti Putra Malaysia (UPM)</li>
+                                <li>Akkon University of Applied Sciences, Berlin, Germany</li>
+                                <li>National Taipei University of Nursing and Health Sciences, Taiwan</li>
+                                <li>Kyungdong University-Global Campus, South Korea</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="col-lg" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                        <span>
+                            <ul>
+                                <li>World Business Affairs, Sdn., Bhd</li>
+                                <li>Universiti Muhammadiyah Malaysia (UMAM)</li>
+                                <li>Talanta, United Kingdom</li>
+                                <li>Research Centre For Islamic History Art, And Culture (IRCICA)</li>
+                                <li>Islamic University In Uganda (IUIU)</li>
+                                <li>Islamic University Of Technology Bangladesh</li>
+                                <li>Management And Science Unversity Malaysia</li>
+                                <li>Universiti Sultan Zainal Abidin Malaysia (UNISZA)</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <div class="col-lg" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
+                        <span>
+                            <ul>
+                                <li>Institute of Technology PETRONAS Sdn Bhd</li>
+                                <li>International university & colleges (INTI) Malaysia</li>
+                                <li>Universiti Teknologi Mara</li>
+                                <li>PARALLAXNET LLC</li>
+                                <li>Chia Nan University of Pharmacy and Science, Taiwan</li>
+                                <li>National Dong Hwa University, Taiwan </li>
+                                <li>Hubei University of Technology, China</li>
+                            </ul>
+                        </span>
+                    </div>
+                    
+                </div>
+                <hr class="border border-secondary-subtle">
+                <div class="row text-center py-3">
+                    <div class="col-md-12 text-start">
+                        <h3 class="fw-bold text-center">Berita</h3>
+                        <div class="col-sm mx-auto border border-warning my-3" style="width: 90px;"></div>
+                
+                        <!-- API Berita Section -->
+                        <div id="api-berita" class="row row-cols-1 row-cols-md-4 g-2 py-5">
+                            <!-- Fetched news items will be injected here -->
+                        </div>
+                
+                        <!-- Berita Lainnya Button -->
+                        <div class="text-center my-4">
+                            <a href="semua-berita.html" style="text-decoration: none;" class="btn btn-warning rounded-5">
+                                Berita lainnya &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+
+                <hr class="border border-secondary-subtle">
+                <div class="row text-center py-3">
+                    <div class="col-md-12 text-start">
+                        <h3 class="fw-bold text-center">Pengumuman</h3>
+                        <div class="col-sm mx-auto border border-warning my-3" style="width: 90px;"></div>
+                        <div id="api-pengumuman" class="row row-cols-1 row-cols-md-4 g-2 py-5">
+
+                        </div>
+                        <div class="text-center my-4"><a href="semua-pengumuman.html" style="text-decoration: none;" class="btn btn-warning rounded-5">Pengumuman lainnya &rarr;</a></div>
+                    </div>
+                </div>
+                <hr class="border border-secondary-subtle">
+
+            </div>
+        </div>
+        
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: white;">
+            <div class="row align-items-center text-white">
+                <a id="section-col" href="https://umkt.ac.id/pmb" class="col-lg border text-center" style="background-image: url('https://minio.umkt.ac.id/dev-umkt-static/images/home-1.png');">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                        <h5 class="fw-bold" href="#">PMB 2025/2026</h5>
+                        <div class="col-sm border border-warning my-3" style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <span>Penerimaan Mahasiswa Tahun Ajaran 2025/2026, Segera Daftarkan Diri Anda Milenial Muda!</span>            
+                    </div>
+                </a>
+                <a id="section-col" href="https://umkt.ac.id/profil.html" class="col-lg border text-center" style="background-image: url('https://minio.umkt.ac.id/dev-umkt-media/dokumen/home-2.png');">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
+                        <h5 class="fw-bold">PROFIL KAMPUS</h5>
+                        <div class="col-sm border border-warning my-3" style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <span>Universitas Muhammadiyah Kalimantan Timur (UMKT) merupakan hasil penggabungan STIKES Muhammadiyah STIE Muhammadiyah Samarinda dan Samarinda dengan penambahan 10 program studi baru</span>
+                    </div>
+                </a>
+                <a id="section-col" href="https://umkt.ac.id/fakultas.html" class="col-lg border text-center" style="background-image: url('https://minio.umkt.ac.id/dev-umkt-media/dokumen/home-3.png');">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
+                        <h5 class="fw-bold">FAKULTAS</h5>
+                        <div class="col-sm border border-warning my-3" style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <span>Kampus UMKT Saat Ini Memiliki 10 Fakultas Dan 24 Program Studi Tingkat Sarjana Dan Diploma</span> 
+                    </div>
+                </a>
+                <a id="section-col" href="https://umkt.ac.id/program-studi.html" class="col-lg border text-center" style="background-image: url('https://minio.umkt.ac.id/dev-umkt-media/dokumen/home-4.png');">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
+                        <h5 class="fw-bold">PROGRAM STUDI</h5>
+                        <div class="col-sm border border-warning my-3" style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <span>UMKT Mempunyai 24 program studi unggulan di Kalimantan Timur dan memiliki lulusan yang kompoten di tiap bidangnya</span>
+                    </div>
+                </a>
+                <a id="section-col" href="https://umkt.ac.id/unit-bagian-biro-dan-lembaga.html" class="col-lg border text-center" style="background-image: url('https://minio.umkt.ac.id/dev-umkt-media/dokumen/home-5.png');">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-once="true">
+                        <h5 class="fw-bold">UNIT, BAGIAN, BIRO, DAN LEMBAGA</h5>
+                        <div class="col-sm border border-warning my-3" style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <span>Universitas Muhammadiyah Kalimantan Timur (UMKT) Memiliki Berbagai Unit dan Lembaga yang bergerak di tiap bidangnya agar meningkatkan kemajuan dan kualitas universitas</span>         
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: white;">
+            <div class="container p-2">
+                <div class="row align-items-center text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+                    <h3 class="fw-bold">Universitas Muhammadiyah Kalimantan Timur</h3>
+                </div>
+                <div class="container pt-4 text-center">
+                    <div class="row m-2 row-cols-1 row-cols-sm-2 row-cols-md-4">
+                        <div class="col py-4">
+                            <div class="row">
+                                <div class="col text-end">
+                                    <img src="https://minio.umkt.ac.id/dev-umkt-static/images/graduated-120x120.png" style="height: 50px;" alt="">
+                                </div>
+                                <div class="col text-start">
+                                    <p class="counter-count p-0 m-0 fw-bold fs-5">10rb ++</p>
+                                    <p class="p-0 m-0">Mahasiswa</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col py-4">
+                            <div class="row">
+                                <div class="col text-end">
+                                    <img src="https://minio.umkt.ac.id/dev-umkt-static/images/presentation-110x110-1-110x110.png" style="height: 50px;" alt="">
+                                </div>
+                                <div class="col text-start">
+                                    <p class="counter-count p-0 m-0 fw-bold fs-5">234</p>
+                                    <p class="p-0 m-0">Dosen</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col py-4">
+                            <div class="row">
+                                <div class="col text-end">
+                                    <img src="https://minio.umkt.ac.id/dev-umkt-static/images/team-110x110-1-110x110.png" style="height: 50px;" alt="">
+                                </div>
+                                <div class="col text-start">
+                                    <p class="counter-count p-0 m-0 fw-bold fs-5">3678</p>
+                                    <p class="p-0 m-0">Alumni</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col py-4">
+                            <div class="row">
+                                <div class="col text-end">
+                                    <img src="https://minio.umkt.ac.id/dev-umkt-static/images/journal-110x110-1-110x110.png" style="height: 50px;" alt="">
+                                </div>
+                                <div class="col text-start">
+                                    <p class="counter-count p-0 m-0 fw-bold fs-5">2648</p>
+                                    <p class="p-0 m-0">Paper</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: aliceblue;">
+            <div class="container p-2">
+                <div class="row text-center align-content-center" style="padding-top: 50px; padding-bottom: 50px;"  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">
+                    <i>
+                        <q class="fs-4 fw-medium py-5">                
+                            Waktu Anda di universitas adalah kesempatan besar untuk bertemu orang-orang, mencoba hal-hal baru, dan mengembangkan minat Anda. ~
+                        </q>
+                    </i>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section -->
+        <div id="section" class="container-fluid" style="background-color: rgba(39, 47, 84, 0.9);">
+            <div class="container p-2">
+                <h3 class="fw-bold text-center py-4 text-white">Campus Tour</h3>
+                <div class="iframe-container">
+                    <iframe frameborder="0" scrolling="no" type="text/html" src="https://www.youtube.com/embed/1A7scJbKfvY?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=large">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section -->
+        <div id="section" class="container-fluid d" style="background-color: white;">
+            <div class="container p-2">
+                <div class="row text-center">
+                    <div class="col-md-8 text-start">
+                        <div>
+                            <h3 class="fw-bold">Event</h3>
+                            <div class="col-sm border border-warning my-3" style="width: 40px;"></div>
+                            <div id="api-event" class="row row-cols-1 row-cols-md-3 g-2 py-5">
+        
+                            </div>
+                            <div class="text-center my-4"><a href="semua-event.html" style="text-decoration: none;" class="btn btn-warning rounded-5">Event lainnya &rarr;</a></div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="col m-0x">
+                            <h3 class="fw-bold">Success Stories</h3>
+                        </div>
+                        <div class="col-sm border border-warning my-3" style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <div class="row row-cols-1 row-cols-md-1 g-4 py-5">
+                            <div class="col">
+                                <div class="card border-0 p-3 shadow">
+                                    <img src="https://minio.umkt.ac.id/dev-umkt-media/dokumen/Dr._Muhammad_Musiyam_M.T.JPG" class="card-img-top rounded" alt="Rektor Universitas Muhammadiyah Kalimantan Timur">
+                                    <div class="card-body">
+                                        <h5 id="title" class="card-title fs-6 fw-semibold">Rektor Universitas Muhammadiyah Kalimantan Timur</h5>
+                                        <p class="card-text">Dr. Muhammad Musiyam, M.T</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <h5 class="fw-bold text-center">YouTube UMKT</h5>
+                        <div class="col-sm border border-warning " style="width: 40px; position: center; margin: 0 auto;"></div>
+                        <div class="col p-2">
+                            <div class="rounded" style="position: relative; padding-bottom: 56.25%; height: 300;">
+                                <iframe style="position: absolute; top: 0; left:0; width:100%; height:100%; border-radius: 10px;" src="https://www.youtube.com/embed?listType=playlist&list=UU9VOR5Ry-JjlpcRNiu2tMMQ">
+                                </iframe>
+                            </div>
+                            <div class="pt-3 text-center">
+                                <a class="btn btn-md text-light" style="background-color: #ff0000;" href="https://www.youtube.com/@universitasmuhammadiyahkal3638" target="_blank" rel="noopener noreferrer"><i class="bi bi-youtube"></i> View on YouTube</a>
+                            </div>
+                        </div> -->
+                    </div>
+
+                </div>
+                <!-- <div class="row text-center">
+                    <div class="col-md-4">
+                    </div>
+                </div> -->
+                <!-- <div class="row text-center"> -->
+                    <!-- <div class="col-md-8 text-start">
+                        <h3 class="fw-bold">Berita</h3>
+                        <div class="col-sm border border-warning my-3" style="width: 40px;"></div>
+                        <div id="api-berita" class="row row-cols-1 row-cols-md-3 g-2 py-5">
+
+                        </div>
+                        <div class="text-end my-4"><a href="semua-berita.html" style="text-decoration: none;" class="btn btn-warning rounded-5">Semua berita &rarr;</a></div>
+
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+        <!-- Main Content -->
+    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98eb41734d0e833c',t:'MTc2MDQ4ODcyNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    <!-- Tambahkan link ke Bootstrap JavaScript di sini -->
+    <script src="https://minio.umkt.ac.id/dev-umkt-static/plugins/js/aos.js"></script>
+    <script src="https://minio.umkt.ac.id/dev-umkt-static/plugins/js/jquery-3.7.0.min.js"></script>
+    <script src="https://minio.umkt.ac.id/dev-umkt-static/plugins/js/popper.min.js"></script>
+    <script src="https://minio.umkt.ac.id/dev-umkt-static/plugins/js/bootstrap.min.js"></script>
+    <!-- <script src="https://minio.umkt.ac.id/dev-umkt-static/plugins/js/custom.js"></script> -->
+
+    <!-- GTranslate -->
+    <script>
+        function gTranslate() {
+            // Trigger Google Translate
+            var $button = document.querySelector(".goog-te-combo");
+            if ($button) {
+                $button.dispatchEvent(new Event("mousedown"));
+                $button.value = "en";
+                $button.dispatchEvent(new Event("change"));
+                document.querySelector('.goog-te-combo').dispatchEvent(new Event('change'));
+            }
+
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){   
+            window.addEventListener('scroll', function() {
+                var translateToolbar = document.querySelector('.skiptranslate');
+                var translateToolbarContainer = document.getElementById(':1.container');
+                var navTop = document.getElementById('navbar_top');
+
+                if (window.scrollY > 200 && !translateToolbarContainer) {
+                    navTop.style.top = '';
+                } else if (translateToolbar.style.display !== 'none') {
+                    navTop.style.top = '0px';
+                } else {
+                    navTop.style.top = '';
+                }
+            });
+        });
+    </script>
+
+    <!-- Menu navigasi Multi-level -->
+    <script>
+        (function($bs) {
+            const CLASS_NAME = 'has-child-dropdown-show';
+            $bs.Dropdown.prototype.toggle = function(_orginal) {
+                return function() {
+                    document.querySelectorAll('.' + CLASS_NAME).forEach(function(e) {
+                        e.classList.remove(CLASS_NAME);
+                    });
+                    let dd = this._element.closest('.dropdown').parentNode.closest('.dropdown');
+                    for (; dd && dd !== document; dd = dd.parentNode.closest('.dropdown')) {
+                        dd.classList.add(CLASS_NAME);
+                    }
+                    return _orginal.call(this);
+                }
+            }($bs.Dropdown.prototype.toggle);
+        
+            document.querySelectorAll('.dropdown').forEach(function(dd) {
+                dd.addEventListener('hide.bs.dropdown', function(e) {
+                    if (this.classList.contains(CLASS_NAME)) {
+                        this.classList.remove(CLASS_NAME);
+                        e.preventDefault();
+                    }
+                    e.stopPropagation(); // do not need pop in multi level mode
+                });
+            });
+        })(bootstrap);
+    </script>
+
+    <!-- API BERITA MAIN -->
+    <script>
+        let currentPageBeritaMain = 1; // Track the current page
+        const apiUrlBeritaMain = 'https://dev.umkt.ac.id/api/berita/';
+
+        function removeHtmlTags(html) {
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            return doc.body.textContent || "";
+        }
+
+        function truncateText(text, limit) {
+            const words = text.split(' ');
+            if (words.length > limit) {
+                return words.slice(0, limit).join(' ') + '...';
+            }
+            return text;
+        }
+
+        function fetchBeritaMain(page = 1) {
+            // Fetch data from API pengumuman with pagination
+            fetch(`${apiUrlBeritaMain}?page=${page}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const apiDataDiv = document.getElementById('api-berita-main');
+                    apiDataDiv.innerHTML = ''; // Clear old content
+                    apiDataDiv.classList.add('row', 'gx-4', 'gy-4');
+
+                    const latestItems = data.results; // Use the results directly
+                    const displayedItems = latestItems.slice(0, 1); // Limit to the first 4 items
+
+                    if (displayedItems && displayedItems.length > 0) {
+                        displayedItems.forEach(item => {
+                            const colDiv = document.createElement('div');
+                            colDiv.classList.add('col-12', 'col-md-12', 'col-lg-12', 'd-flex', 'align-items-stretch');
+
+                            const cardDiv = document.createElement('div');
+                            cardDiv.classList.add('card', 'shadow', 'border-0', 'bg-success-subtle', 'position-relative', 'h-100');
+                            cardDiv.style.cursor = 'pointer';
+                            cardDiv.onclick = () => window.location.href = item.url;
+
+                            // Create and append the badge
+                            const badge = document.createElement('span');
+                            badge.classList.add('text-white', 'badge', 'bg-success', 'position-absolute', 'top-0', 'start-0', 'mt-2', 'ms-2');
+                            badge.textContent = 'UMKT News!';
+                            cardDiv.appendChild(badge);
+
+                            const img = document.createElement('img');
+                            img.src = item.thumbnail;
+                            img.classList.add('card-img-top');
+                            img.alt = '';
+                            img.style.objectFit = 'cover';
+                            img.style.height = '190px';
+
+                            const cardBodyDiv = document.createElement('div');
+                            cardBodyDiv.classList.add('card-body', 'd-flex', 'flex-column', 'justify-content-start');
+
+                            const title = document.createElement('h6');
+                            title.classList.add('card-title', 'fw-semibold');
+                            title.textContent = truncateText(item.judul, 12);
+
+                            const rawDate = item.tanggal;
+                            const date = new Date(rawDate);
+                            const formattedDate = date.toLocaleString('en-US', {
+                                year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                            });
+                            const tanggal = document.createElement('p');
+                            tanggal.classList.add('card-text', 'text-secondary');
+                            tanggal.style.fontSize = '10pt';
+                            tanggal.textContent = formattedDate;
+
+                            const paragraph = document.createElement('p');
+                            paragraph.classList.add('card-text');
+                            paragraph.style.fontSize = '14px';
+                            paragraph.textContent = truncateText(removeHtmlTags(item.isi), 10);
+
+                            cardBodyDiv.appendChild(title);
+                            cardBodyDiv.appendChild(tanggal);
+                            cardBodyDiv.appendChild(paragraph);
+
+                            // Add the yellow box with arrow icon
+                            const arrowIconDiv = document.createElement('div');
+                            arrowIconDiv.classList.add('icon-box');
+                            arrowIconDiv.innerHTML = `<i class="bi bi-arrow-up-right"></i>`;
+                            cardDiv.appendChild(img);
+                            cardDiv.appendChild(cardBodyDiv);
+                            cardDiv.appendChild(arrowIconDiv);
+                            colDiv.appendChild(cardDiv);
+                            apiDataDiv.appendChild(colDiv);
+                        });
+                    } else {
+                        apiDataDiv.textContent = 'Tidak ada berita.';
+                    }
+
+                    // Handle pagination buttons if needed
+                    // Uncomment and modify this section if you want to handle pagination buttons
+                    // const paginationDiv = document.getElementById('pagination');
+                    // paginationDiv.innerHTML = ''; // Clear previous pagination buttons
+                    // if (data.previous) {
+                    //     const prevButton = document.createElement('button');
+                    //     prevButton.textContent = 'Previous';
+                    //     prevButton.classList.add('btn', 'btn-primary', 'me-2');
+                    //     prevButton.onclick = () => {
+                    //         currentPageBeritaMain--;
+                    //         fetchBeritaMain(currentPageBeritaMain);
+                    //     };
+                    //     paginationDiv.appendChild(prevButton);
+                    // }
+                    // if (data.next) {
+                    //     const nextButton = document.createElement('button');
+                    //     nextButton.textContent = 'Next';
+                    //     nextButton.classList.add('btn', 'btn-primary');
+                    //     nextButton.onclick = () => {
+                    //         currentPageBeritaMain++;
+                    //         fetchBeritaMain(currentPageBeritaMain);
+                    //     };
+                    //     paginationDiv.appendChild(nextButton);
+                    // }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    const apiDataDiv = document.getElementById('api-berita-main');
+                    apiDataDiv.textContent = 'Gagal memuat data.';
+                });
+        }
+
+        // Initial fetch call
+        fetchBeritaMain(currentPageBeritaMain);
+    </script>
+
+    <!-- API PENGUMUMAN MAIN -->
+    <script>
+        let currentPagePengumumanMain = 1; // Track the current page
+        const apiUrlPengumumanMain = 'https://dev.umkt.ac.id/api/pengumuman/';
+
+        function removeHtmlTags(html) {
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            return doc.body.textContent || "";
+        }
+
+        function truncateText(text, limit) {
+            const words = text.split(' ');
+            if (words.length > limit) {
+                return words.slice(0, limit).join(' ') + '...';
+            }
+            return text;
+        }
+
+        function fetchPengumumanMain(page = 1) {
+            // Fetch data from API pengumuman with pagination
+            fetch(`${apiUrlPengumumanMain}?page=${page}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const apiDataDiv = document.getElementById('api-pengumuman-main');
+                    apiDataDiv.innerHTML = ''; // Clear old content
+                    apiDataDiv.classList.add('row', 'gx-4', 'gy-4');
+
+                    const latestItems = data.results; // Use the results directly
+                    const displayedItems = latestItems.slice(0, 1); // Limit to the first 4 items
+
+                    if (displayedItems && displayedItems.length > 0) {
+                        displayedItems.forEach(item => {
+                            const colDiv = document.createElement('div');
+                            colDiv.classList.add('col-12', 'col-md-12', 'col-lg-12', 'd-flex', 'align-items-stretch');
+
+                            const cardDiv = document.createElement('div');
+                            cardDiv.classList.add('card', 'shadow', 'border-0', 'bg-warning-subtle', 'position-relative', 'h-100');
+                            cardDiv.style.cursor = 'pointer';
+                            cardDiv.onclick = () => window.location.href = item.url;
+
+                            // Create and append the badge
+                            const badge = document.createElement('span');
+                            badge.classList.add('text-black', 'badge', 'bg-warning', 'position-absolute', 'top-0', 'start-0', 'mt-2', 'ms-2');
+                            badge.textContent = 'Pengumuman UMKT!';
+                            cardDiv.appendChild(badge);
+
+                            const img = document.createElement('img');
+                            img.src = item.thumbnail;
+                            img.classList.add('card-img-top');
+                            img.alt = '';
+                            img.style.objectFit = 'cover';
+                            img.style.height = '190px';
+
+                            const cardBodyDiv = document.createElement('div');
+                            cardBodyDiv.classList.add('card-body', 'd-flex', 'flex-column', 'justify-content-start');
+
+                            const title = document.createElement('h6');
+                            title.classList.add('card-title', 'fw-semibold');
+                            title.textContent = truncateText(item.judul, 12);
+
+                            const rawDate = item.tanggal;
+                            const date = new Date(rawDate);
+                            const formattedDate = date.toLocaleString('en-US', {
+                                year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                            });
+                            const tanggal = document.createElement('p');
+                            tanggal.classList.add('card-text', 'text-secondary');
+                            tanggal.style.fontSize = '10pt';
+                            tanggal.textContent = formattedDate;
+
+                            const paragraph = document.createElement('p');
+                            paragraph.classList.add('card-text');
+                            paragraph.style.fontSize = '14px';
+                            paragraph.textContent = truncateText(removeHtmlTags(item.isi), 10);
+
+                            cardBodyDiv.appendChild(title);
+                            cardBodyDiv.appendChild(tanggal);
+                            cardBodyDiv.appendChild(paragraph);
+
+                            // Add the yellow box with arrow icon
+                            const arrowIconDiv = document.createElement('div');
+                            arrowIconDiv.classList.add('icon-box');
+                            arrowIconDiv.innerHTML = `<i class="bi bi-arrow-up-right"></i>`;
+                            cardDiv.appendChild(img);
+                            cardDiv.appendChild(cardBodyDiv);
+                            cardDiv.appendChild(arrowIconDiv);
+                            colDiv.appendChild(cardDiv);
+                            apiDataDiv.appendChild(colDiv);
+                        });
+                    } else {
+                        apiDataDiv.textContent = 'Tidak ada pengumuman.';
+                    }
+
+                    // Handle pagination buttons if needed
+                    // Uncomment and modify this section if you want to handle pagination buttons
+                    // const paginationDiv = document.getElementById('pagination');
+                    // paginationDiv.innerHTML = ''; // Clear previous pagination buttons
+                    // if (data.previous) {
+                    //     const prevButton = document.createElement('button');
+                    //     prevButton.textContent = 'Previous';
+                    //     prevButton.classList.add('btn', 'btn-primary', 'me-2');
+                    //     prevButton.onclick = () => {
+                    //         currentPagePengumumanMain--;
+                    //         fetchPengumumanMain(currentPagePengumumanMain);
+                    //     };
+                    //     paginationDiv.appendChild(prevButton);
+                    // }
+                    // if (data.next) {
+                    //     const nextButton = document.createElement('button');
+                    //     nextButton.textContent = 'Next';
+                    //     nextButton.classList.add('btn', 'btn-primary');
+                    //     nextButton.onclick = () => {
+                    //         currentPagePengumumanMain++;
+                    //         fetchPengumumanMain(currentPagePengumumanMain);
+                    //     };
+                    //     paginationDiv.appendChild(nextButton);
+                    // }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    const apiDataDiv = document.getElementById('api-pengumuman-main');
+                    apiDataDiv.textContent = 'Gagal memuat data.';
+                });
+        }
+
+        // Initial fetch call
+        fetchPengumumanMain(currentPagePengumumanMain);
+    </script>
+
+    <!-- API EVENT -->
+    <script>
+        let currentPageEvent = 1; // Track the current page
+
+        function removeHtmlTags(html) {
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            return doc.body.textContent || "";
+        }
+        
+        function truncateText(text, limit) {
+            const words = text.split(' ');
+            if (words.length > limit) {
+                return words.slice(0, limit).join(' ') + '...';
+            }
+            return text;
+        }
+        
+        function fetchEvent(page = 1) {
+            // Fetch data from API berita with pagination
+            fetch(`https://dev.umkt.ac.id/api/event/?page=${page}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Clear the existing content
+                    const apiDataDiv = document.getElementById('api-event');
+                    apiDataDiv.innerHTML = ''; // Clear old content
+                    apiDataDiv.classList.add('row', 'gx-4', 'gy-4');
+
+                    // Filter and sort results, then slice
+                    const latestItems = data.results
+                        .slice(0, 6);
+
+                    if (latestItems && latestItems.length > 0) {
+                        latestItems.forEach(item => {
+                            const colDiv = document.createElement('div');
+                            colDiv.classList.add('col-12', 'col-md-6', 'col-lg-4', 'd-flex', 'align-items-stretch');
+
+                            const cardDiv = document.createElement('div');
+                            cardDiv.classList.add('card', 'shadow', 'border-0', 'position-relative', 'h-100');
+                            cardDiv.style.cursor = 'pointer';
+                            cardDiv.onclick = () => window.location.href = item.url;
+
+                            const img = document.createElement('img');
+                            img.src = item.thumbnail;
+                            img.classList.add('card-img-top');
+                            img.alt = '';
+                            img.style.objectFit = 'cover';
+                            img.style.height = '190px';
+
+                            const cardBodyDiv = document.createElement('div');
+                            cardBodyDiv.classList.add('card-body', 'd-flex', 'flex-column', 'justify-content-start');
+
+                            const title = document.createElement('h6');
+                            title.classList.add('card-title', 'fw-semibold');
+                            title.textContent = truncateText(item.judul, 12);
+
+                            const rawDate = item.tanggal;
+                            const date = new Date(rawDate);
+                            const formattedDate = date.toLocaleString('en-US', {
+                                year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                            });
+                            const tanggal = document.createElement('p');
+                            tanggal.classList.add('card-text', 'text-secondary');
+                            tanggal.style.fontSize = '10pt';
+                            tanggal.textContent = formattedDate;
+
+                            const paragraph = document.createElement('p');
+                            paragraph.classList.add('card-text');
+                            paragraph.style.fontSize = '14px';
+                            paragraph.textContent = truncateText(removeHtmlTags(item.isi), 10);
+
+                            const arrowIconDiv = document.createElement('div');
+                            arrowIconDiv.classList.add('icon-box');
+                            arrowIconDiv.innerHTML = `<i class="bi bi-arrow-up-right"></i>`;
+                            arrowIconDiv.style.position = 'absolute';
+                            arrowIconDiv.style.top = '0px';
+                            arrowIconDiv.style.right = '0px';
+
+                            const imgArrowContainer = document.createElement('div');
+                            imgArrowContainer.classList.add('d-flex', 'justify-content-between', 'align-items-center', 'mt-auto', 'flex-wrap');
+
+                            const smallImageLink = document.createElement('a');
+                            smallImageLink.href = 'https://umkt.ac.id/sdgs-center/';
+                            smallImageLink.target = '_blank';
+                            smallImageLink.onclick = (event) => event.stopPropagation();
+
+                            const smallImage = document.createElement('img');
+                            smallImage.src = 'https://minio.umkt.ac.id/dev-umkt-media/dokumen/sejalan-tpb_4iljjmu.png';
+                            smallImage.classList.add('small-image');
+                            smallImageLink.appendChild(smallImage);
+
+                            const sdgsDiv = document.createElement('div');
+                            sdgsDiv.classList.add('d-flex', 'flex-wrap', 'ms-2');
+
+                            const sdgsArray = item.sdgs;
+                            if (Array.isArray(sdgsArray) && sdgsArray.length > 0) {
+                                sdgsArray.forEach(sdgs => {
+                                    const sdgsBox = document.createElement('span');
+                                    sdgsBox.classList.add('sdgs-box', 'me-2');
+                                    sdgsBox.textContent = sdgs.id;
+                                    sdgsBox.style.backgroundColor = sdgs.color;
+
+                                    sdgsBox.setAttribute('data-bs-toggle', 'tooltip');
+                                    sdgsBox.setAttribute('title', sdgs.sdgs);
+
+                                    sdgsDiv.appendChild(sdgsBox);
+                                });
+
+                                const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                                tooltipTriggerList.map(function (tooltipTriggerEl) {
+                                    return new bootstrap.Tooltip(tooltipTriggerEl);
+                                });
+                            } else {
+                                smallImage.style.display = 'none';
+                            }
+
+                            imgArrowContainer.appendChild(smallImageLink);
+                            imgArrowContainer.appendChild(sdgsDiv);
+
+                            cardBodyDiv.appendChild(title);
+                            cardBodyDiv.appendChild(tanggal);
+                            cardBodyDiv.appendChild(paragraph);
+                            cardBodyDiv.appendChild(imgArrowContainer);
+
+                            cardDiv.appendChild(img);
+                            cardDiv.appendChild(cardBodyDiv);
+                            cardDiv.appendChild(arrowIconDiv);
+                            colDiv.appendChild(cardDiv);
+                            apiDataDiv.appendChild(colDiv);
+                        });
+                    } else {
+                        apiDataDiv.textContent = 'Tidak ada event.';
+                    }
+
+                    // Handle pagination buttons
+                    // const paginationDiv = document.getElementById('pagination');
+                    // paginationDiv.innerHTML = ''; // Clear previous pagination buttons
+                    // if (data.previous) {
+                    //     const prevButton = document.createElement('button');
+                    //     prevButton.textContent = 'Previous';
+                    //     prevButton.classList.add('btn', 'btn-primary', 'me-2');
+                    //     prevButton.onclick = () => {
+                    //         currentPageEvent--;
+                    //         fetchEvent(currentPageEvent);
+                    //     };
+                    //     paginationDiv.appendChild(prevButton);
+                    // }
+                    // if (data.next) {
+                    //     const nextButton = document.createElement('button');
+                    //     nextButton.textContent = 'Next';
+                    //     nextButton.classList.add('btn', 'btn-primary');
+                    //     nextButton.onclick = () => {
+                    //         currentPageEvent++;
+                    //         fetchEvent(currentPageEvent);
+                    //     };
+                    //     paginationDiv.appendChild(nextButton);
+                    // }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    const apiDataDiv = document.getElementById('api-event');
+                    apiDataDiv.textContent = 'Gagal memuat data.';
+                });
+        }
+        
+        // Initial fetch call
+        fetchEvent(currentPageEvent);        
+    </script>    
+
+    <!-- API BERITA -->
+    <script>
+        let currentPageBerita = 1; // Track the current page
+    
+        function removeHtmlTags(html) {
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            return doc.body.textContent || "";
+        }
+        
+        function truncateText(text, limit) {
+            const words = text.split(' ');
+            if (words.length > limit) {
+                return words.slice(0, limit).join(' ') + '...';
+            }
+            return text;
+        }
+        
+        function fetchBerita(page = 1) {
+            // Fetch data from API berita with pagination
+            fetch(`https://dev.umkt.ac.id/api/berita/?page=${page}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Clear the existing content
+                    const apiDataDiv = document.getElementById('api-berita');
+                    apiDataDiv.innerHTML = ''; // Clear old content
+                    apiDataDiv.classList.add('row', 'gx-4', 'gy-4');
+    
+                    // Filter and sort results, then slice
+                    const latestItems = data.results
+                        .slice(0, 4);
+    
+                    if (latestItems && latestItems.length > 0) {
+                        latestItems.forEach(item => {
+                            const colDiv = document.createElement('div');
+                            colDiv.classList.add('col-12', 'col-md-6', 'col-lg-3', 'd-flex', 'align-items-stretch');
+    
+                            const cardDiv = document.createElement('div');
+                            cardDiv.classList.add('card', 'shadow', 'border-0', 'position-relative', 'h-100');
+                            cardDiv.style.cursor = 'pointer';
+                            cardDiv.onclick = () => window.location.href = item.url;
+    
+                            const img = document.createElement('img');
+                            img.src = item.thumbnail;
+                            img.classList.add('card-img-top');
+                            img.alt = '';
+                            img.style.objectFit = 'cover';
+                            img.style.height = '190px';
+    
+                            const cardBodyDiv = document.createElement('div');
+                            cardBodyDiv.classList.add('card-body', 'd-flex', 'flex-column', 'justify-content-start');
+    
+                            const title = document.createElement('h6');
+                            title.classList.add('card-title', 'fw-semibold');
+                            title.textContent = truncateText(item.judul, 12);
+    
+                            const rawDate = item.tanggal;
+                            const date = new Date(rawDate);
+                            const formattedDate = date.toLocaleString('en-US', {
+                                year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                            });
+                            const tanggal = document.createElement('p');
+                            tanggal.classList.add('card-text', 'text-secondary');
+                            tanggal.style.fontSize = '10pt';
+                            tanggal.textContent = formattedDate;
+    
+                            const paragraph = document.createElement('p');
+                            paragraph.classList.add('card-text');
+                            paragraph.style.fontSize = '14px';
+                            paragraph.textContent = truncateText(removeHtmlTags(item.isi), 10);
+    
+                            const arrowIconDiv = document.createElement('div');
+                            arrowIconDiv.classList.add('icon-box');
+                            arrowIconDiv.innerHTML = `<i class="bi bi-arrow-up-right"></i>`;
+                            arrowIconDiv.style.position = 'absolute';
+                            arrowIconDiv.style.top = '0px';
+                            arrowIconDiv.style.right = '0px';
+    
+                            const imgArrowContainer = document.createElement('div');
+                            imgArrowContainer.classList.add('d-flex', 'justify-content-between', 'align-items-center', 'mt-auto', 'flex-wrap');
+    
+                            const smallImageLink = document.createElement('a');
+                            smallImageLink.href = 'https://umkt.ac.id/sdgs-center/';
+                            smallImageLink.target = '_blank';
+                            smallImageLink.onclick = (event) => event.stopPropagation();
+    
+                            const smallImage = document.createElement('img');
+                            smallImage.src = 'https://minio.umkt.ac.id/dev-umkt-media/dokumen/sejalan-tpb_4iljjmu.png';
+                            smallImage.classList.add('small-image');
+                            smallImageLink.appendChild(smallImage);
+    
+                            const sdgsDiv = document.createElement('div');
+                            sdgsDiv.classList.add('d-flex', 'flex-wrap', 'ms-2');
+    
+                            const sdgsArray = item.sdgs;
+                            if (Array.isArray(sdgsArray) && sdgsArray.length > 0) {
+                                sdgsArray.forEach(sdgs => {
+                                    const sdgsBox = document.createElement('span');
+                                    sdgsBox.classList.add('sdgs-box', 'me-2');
+                                    sdgsBox.textContent = sdgs.id;
+                                    sdgsBox.style.backgroundColor = sdgs.color;
+    
+                                    sdgsBox.setAttribute('data-bs-toggle', 'tooltip');
+                                    sdgsBox.setAttribute('title', sdgs.sdgs);
+    
+                                    sdgsDiv.appendChild(sdgsBox);
+                                });
+    
+                                const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                                tooltipTriggerList.map(function (tooltipTriggerEl) {
+                                    return new bootstrap.Tooltip(tooltipTriggerEl);
+                                });
+                            } else {
+                                smallImage.style.display = 'none';
+                            }
+    
+                            imgArrowContainer.appendChild(smallImageLink);
+                            imgArrowContainer.appendChild(sdgsDiv);
+    
+                            cardBodyDiv.appendChild(title);
+                            cardBodyDiv.appendChild(tanggal);
+                            cardBodyDiv.appendChild(paragraph);
+                            cardBodyDiv.appendChild(imgArrowContainer);
+    
+                            cardDiv.appendChild(img);
+                            cardDiv.appendChild(cardBodyDiv);
+                            cardDiv.appendChild(arrowIconDiv);
+                            colDiv.appendChild(cardDiv);
+                            apiDataDiv.appendChild(colDiv);
+                        });
+                    } else {
+                        apiDataDiv.textContent = 'Tidak ada berita.';
+                    }
+    
+                    // Handle pagination buttons
+                    // const paginationDiv = document.getElementById('pagination');
+                    // paginationDiv.innerHTML = ''; // Clear previous pagination buttons
+                    // if (data.previous) {
+                    //     const prevButton = document.createElement('button');
+                    //     prevButton.textContent = 'Previous';
+                    //     prevButton.classList.add('btn', 'btn-primary', 'me-2');
+                    //     prevButton.onclick = () => {
+                    //         currentPageBerita--;
+                    //         fetchBerita(currentPageBerita);
+                    //     };
+                    //     paginationDiv.appendChild(prevButton);
+                    // }
+                    // if (data.next) {
+                    //     const nextButton = document.createElement('button');
+                    //     nextButton.textContent = 'Next';
+                    //     nextButton.classList.add('btn', 'btn-primary');
+                    //     nextButton.onclick = () => {
+                    //         currentPageBerita++;
+                    //         fetchBerita(currentPageBerita);
+                    //     };
+                    //     paginationDiv.appendChild(nextButton);
+                    // }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    const apiDataDiv = document.getElementById('api-berita');
+                    apiDataDiv.textContent = 'Gagal memuat data.';
+                });
+        }
+        
+        // Initial fetch call
+        fetchBerita(currentPageBerita);        
+    </script>
+
+    <!-- API PENGUMUMAN -->
+    <script>
+        let currentPagePengumuman = 1; // Keep track of the current page
+        const apiUrlPengumuman = 'https://dev.umkt.ac.id/api/pengumuman/';
+    
+        function removeHtmlTags(html) {
+            const doc = new DOMParser().parseFromString(html, 'text/html');
+            return doc.body.textContent || "";
+        }
+    
+        function truncateText(text, limit) {
+            const words = text.split(' ');
+            if (words.length > limit) {
+                return words.slice(0, limit).join(' ') + '...';
+            }
+            return text;
+        }
+    
+        function fetchPengumuman(page = 1) {
+            // Fetch data from API pengumuman with pagination
+            fetch(`${apiUrlPengumuman}?page=${page}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    
+                    const apiDataDiv = document.getElementById('api-pengumuman');
+                    apiDataDiv.innerHTML = ''; // Clear previous content
+                    apiDataDiv.classList.add('row', 'gx-4', 'gy-4');
+                    
+                    const latestItems = data.results
+                        .slice(0, 4);
+
+                    if (latestItems && latestItems.length > 0) {
+                        latestItems.forEach(item => {
+                            const colDiv = document.createElement('div');
+                            colDiv.classList.add('col-12', 'col-md-6', 'col-lg-3', 'd-flex', 'align-items-stretch');
+    
+                            const cardDiv = document.createElement('div');
+                            cardDiv.classList.add('card', 'shadow', 'border-0', 'position-relative', 'h-100');
+                            cardDiv.style.cursor = 'pointer';
+                            cardDiv.onclick = () => window.location.href = item.url;
+    
+                            const img = document.createElement('img');
+                            img.src = item.thumbnail;
+                            img.classList.add('card-img-top');
+                            img.alt = '';
+                            img.style.objectFit = 'cover';
+                            img.style.height = '190px';
+    
+                            const cardBodyDiv = document.createElement('div');
+                            cardBodyDiv.classList.add('card-body', 'd-flex', 'flex-column', 'justify-content-start');
+    
+                            const title = document.createElement('h6');
+                            title.classList.add('card-title', 'fw-semibold');
+                            title.textContent = truncateText(item.judul, 12);
+    
+                            const rawDate = item.tanggal;
+                            const date = new Date(rawDate);
+                            const formattedDate = date.toLocaleString('en-US', {
+                                year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                            });
+                            const tanggal = document.createElement('p');
+                            tanggal.classList.add('card-text', 'text-secondary');
+                            tanggal.style.fontSize = '10pt';
+                            tanggal.textContent = formattedDate;
+    
+                            const paragraph = document.createElement('p');
+                            paragraph.classList.add('card-text');
+                            paragraph.style.fontSize = '14px';
+                            paragraph.textContent = truncateText(removeHtmlTags(item.isi), 10);
+    
+                            cardBodyDiv.appendChild(title);
+                            cardBodyDiv.appendChild(tanggal);
+                            cardBodyDiv.appendChild(paragraph);
+    
+                            // Add the yellow box with arrow icon
+                            const arrowIconDiv = document.createElement('div');
+                            arrowIconDiv.classList.add('icon-box');
+                            arrowIconDiv.innerHTML = `<i class="bi bi-arrow-up-right"></i>`;
+                            cardDiv.appendChild(img);
+                            cardDiv.appendChild(cardBodyDiv);
+                            cardDiv.appendChild(arrowIconDiv);
+                            colDiv.appendChild(cardDiv);
+                            apiDataDiv.appendChild(colDiv);
+                        });
+                    } else {
+                        apiDataDiv.textContent = 'Tidak ada pengumuman.';
+                    }
+    
+                    // Handle pagination buttons
+                    // const paginationDiv = document.getElementById('pagination');
+                    // paginationDiv.innerHTML = ''; // Clear previous pagination buttons
+                    // if (data.previous) {
+                    //     const prevButton = document.createElement('button');
+                    //     prevButton.textContent = 'Previous';
+                    //     prevButton.classList.add('btn', 'btn-primary', 'me-2');
+                    //     prevButton.onclick = () => {
+                    //         currentPagePengumuman--;
+                    //         fetchPengumuman(currentPagePengumuman);
+                    //     };
+                    //     paginationDiv.appendChild(prevButton);
+                    // }
+                    // if (data.next) {
+                    //     const nextButton = document.createElement('button');
+                    //     nextButton.textContent = 'Next';
+                    //     nextButton.classList.add('btn', 'btn-primary');
+                    //     nextButton.onclick = () => {
+                    //         currentPagePengumuman++;
+                    //         fetchPengumuman(currentPagePengumuman);
+                    //     };
+                    //     paginationDiv.appendChild(nextButton);
+                    // }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    const apiDataDiv = document.getElementById('api-pengumuman');
+                    apiDataDiv.textContent = 'Gagal memuat data.';
+                });
+        }
+    
+        // Initial fetch call
+        fetchPengumuman(currentPagePengumuman);
+    </script>    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+    
+            window.addEventListener('scroll', function() {
+                var initialSrc = "https://minio.umkt.ac.id/dev-umkt-media/dokumen/logo-umkt-biru.webp";
+                var scrollSrc = "https://minio.umkt.ac.id/dev-umkt-media/dokumen/logo-umkt-putih.webp";
+                if (window.scrollY > 200) {
+                    document.getElementById('navbar_top').classList.remove('navbar-light');
+                    document.getElementById('navbar_top').classList.remove('bg-light');
+                    document.getElementById('navbar_top').classList.add('navbar-dark');
+                    document.getElementById('navbar_top').classList.add('fixed-top');
+                    $("#logo").attr("src", scrollSrc);
+                    // add padding top to show content behind navbar
+                    navbar_height = document.querySelector('.navbar').offsetHeight;
+                    document.body.style.paddingTop = navbar_height + 'px';
+                } else {
+                    $("#logo").attr("src", initialSrc);
+                    document.getElementById('navbar_top').classList.remove('navbar-dark');
+                    document.getElementById('navbar_top').classList.add('navbar-light');
+                    document.getElementById('navbar_top').classList.add('bg-light');
+                    document.getElementById('navbar_top').classList.remove('fixed-top');
+                    // remove padding top from body
+                    document.body.style.paddingTop = '0';
+                } 
+            });
+          }); 
+    </script>
+    <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: rgb(39, 47, 84);">
+    <!-- Section: Links  -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 text-white border-bottom">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Universitas Muhammadiyah Kalimantan Timur
+                    </h6>
+                    <p class="fw-bold mb-0">Location</p>
+                    <p>Jl. Ir. H. Juanda No.15, Sidodadi, Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75124</p>
+                    <p class="fw-bold mb-0">Office Hours:</p>
+                    <p>08:00 am - 04:00 pm</p>
+                    <p class="fw-bold mb-0">Telephone</p>
+                    <p>0541-748511</p>
+                    <p class="fw-bold mb-0">Email</p>
+                    <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e89f8d8aa89d85839cc6898bc6818c">[email&#160;protected]</a></p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Quick Access
+                    </h6>
+                    <p>
+                    <a href="https://lib.umkt.ac.id/" target="_blank" rel="noopener noreferrer" class="text-reset">Perpustakaan</a>
+                    </p>
+                    <p>
+                    <a href="https://sikad.umkt.ac.id/TampilanSikad/" target="_blank" rel="noopener noreferrer" class="text-reset">SIKAD</a>
+                    </p>
+                    <p>
+                    <a href="https://umkt.ac.id/fakultas.html" class="text-reset">Fakultas</a>
+                    </p>
+                    <p>
+                    <a href="https://opl.umkt.ac.id" target="_blank" rel="noopener noreferrer" class="text-reset">E-Learning</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    About UMKT
+                    </h6>
+                    <p>
+                    <a href="https://umkt.ac.id/profil.html" class="text-reset">Profil</a>
+                    </p>
+                    <p>
+                    <a href="https://umkt.ac.id/program-studi.html" class="text-reset">Program Studi</a>
+                    </p>
+                    <p>
+                    <a href="https://umkt.ac.id/fakultas.html" class="text-reset">Fakultas</a>
+                    </p>
+                    <p>
+                    <a href="https://umkt.ac.id/kontak.html" class="text-reset">Kontak</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-1 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Media Sosial</h6>
+                    
+                    
+                        
+                        <div class="my-3">
+                            <a href="https://www.instagram.com/umkaltim/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-instagram me-3"></i>Instagram</a>
+                        </div>
+                        
+
+                        
+                        <div class="my-3">
+                            <a href="https://id-id.facebook.com/UMKALTIM/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-facebook me-3"></i>Facebook</a>
+                        </div>
+                        
+
+                        
+                        <div class="my-3">
+                            <a href="https://www.tiktok.com/@umkt_cmiiw" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #FFFFFF;"><i class="bi bi-tiktok me-3"></i>TikTok</a>
+                        </div>
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+                    
+                    
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4 text-white" style="background-color: rgb(39, 47, 84);">
+        <p class="text-reset"><strong>Universitas Muhammadiyah Kalimantan Timur</strong> ©  Copyright <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">document.write( new Date().getFullYear() );</script></p>       
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+</html> 
